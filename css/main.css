@@ -1,0 +1,166 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+body {
+  box-sizing: border-box;
+  color: #373B47;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: white;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+nav {
+  position: absolute;
+  left: 12%;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.fixed-header nav a {
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+img[alt="logo"] {
+  float: right;
+  position: absolute;
+  width: 75px;
+  right: 7%;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+section{
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+img[alt="bg-home"] {
+  position: relative;
+  margin-top: 100px;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top:50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.container p {
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+button {
+  background-color: #27db7e;
+  border: 0;
+  width: 150px;
+  height: 50px;
+}
+ button a {
+   color: #fff;
+}
+
+
+
